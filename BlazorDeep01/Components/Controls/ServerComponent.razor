@@ -1,0 +1,29 @@
+﻿<h3>ServerComponent</h3>
+
+<div data-name="@server.Name">
+    <p>@server.Name is in @server.City</p>
+
+    <p>Status :<span class="@(server.IsOnline?"success":"err")">@(server.IsOnline ? "Online" : "Offline")</span></p>
+
+</div>
+
+<p>Current Server status: <span style="background:green;color:white; padding:3px;">@server.IsOnline</span> at: @DateTime.Now</p>
+
+@code {
+    private Server server = new Server {Name ="Server 1", City ="Brussels"};
+
+}
+
+<style>
+    .success{
+        background: green;
+        color: white;
+        padding: 3px;
+    }
+
+    .err{
+        background: red;
+        color: white;
+        padding: 3px;
+    }
+</style>
