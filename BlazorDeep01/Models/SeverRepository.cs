@@ -5,13 +5,13 @@
 
         private static List<Server> servers = new List<Server>()
         {
-            new Server {ServerId =1, Name ="Server1", City="Bruxelles"},
-            new Server {ServerId =1, Name ="Server2", City="Bruxelles"},
-            new Server {ServerId =1, Name ="Server3", City="Bruxelles"},
-            new Server {ServerId =1, Name ="Server4", City="Dhaka"},
-            new Server {ServerId =1, Name ="Server5", City="Bruxelles"},
-            new Server {ServerId =1, Name ="Server6", City="Dhaka"},
-            new Server {ServerId =1, Name ="Server7", City="Bruxelles"},
+            new Server {ServerId =1, Name ="Server1", City="Toronto"},
+            new Server {ServerId =1, Name ="Server2", City="Toronto"},
+            new Server {ServerId =1, Name ="Server3", City="Calgray"},
+            new Server {ServerId =1, Name ="Server4", City="Ottawa"},
+            new Server {ServerId =1, Name ="Server5", City="Toronto"},
+            new Server {ServerId =1, Name ="Server6", City="Halifax"},
+            new Server {ServerId =1, Name ="Server7", City="Toronto"},
         };
 
         public static void AddServer(Server server)
